@@ -53,12 +53,13 @@ middle wear is the software that intercepts requests and does specific things wi
 **8.** The ______ pipeline delivers information from the client while the ______ pipeline returns it. Fill in the blanks. 
 <!-- enter you answer in the space below -->
 ```
-
+client, server? not sure if this has to do with data pipelines?
 
 ```
 **9.** 
 Demonstrate the pattern that is used to include a request query with the client's `HTTP` request providing the property `tag` and the value `winter`.
 <!-- enter you answer in the space below -->
 ```
+axios.get('example.com/api?tag=winter')
 
 ```
