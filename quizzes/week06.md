@@ -45,7 +45,7 @@ vue uses the router-link component
 <!-- enter you answer in the space below -->
 ```
 
-
+The state object within a component will rerender when the data changes. It has to be specified/ grabbed from the Appstate. components will not re-render when data in the appstate changes.
 
 ```
 **9.** What is the responsibility of `Services` in our Vue projects?
@@ -58,7 +58,7 @@ The services are responsible for manipulating data within the appstate and to ma
 **10.** Which file contains the root element of your Vue project?
 <!-- enter you answer in the space below -->
 ```
-
+The main.js file is the file that contains the root element of the vue project.
 
 
 ```
@@ -66,7 +66,7 @@ The services are responsible for manipulating data within the appstate and to ma
 <!-- enter you answer in the space below -->
 ```
 
-
+the #app tag is used to alter the styling of the entire vue project. Adding the scoped attribute to this tag will limit it to just the component it exists.
 
 ```
 **12.** What is the Vue method used to create watchable objects such as `state` or `AppState`?
